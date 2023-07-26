@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heroSection {
+    height: 100vh;
+    background-color: #693376;
+    display: grid;
+    place-items: center;
+
+}
+
+.centerDiv{
+    width: 20vw;
+    height: 350px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.centerDiv h1{
+    background-color: tomato;
+    margin: 20px 0;
+    padding: 5px 0;
+    text-align: center;
+    color: blue;
+}
+
+.inputBtn{
+    text-align: center;
+}
+
+.inputBtn input{
+    padding: 5px;
+    text-align: center;
+    font-size: 1.1em;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid green;
+    width: 75%;
+}
+
+.inputBtn button{
+    padding: 3px 10px;
+    font-size: 1.3em;
+    font-weight: bold;
+    border-radius: 50%;
+    margin-left: 5px;
+    background-color: #693376;
+    outline: none;
+    border: none;
+    color: white;
+}
+
+.inputBtn button:hover{
+    cursor: pointer;
+    background-color: rgb(20, 71, 20);
+}
+
+ol{
+    margin: 15px 25px;
+
+}
+
+ol li{
+    list-style: none;
+    font-size: 1.2em;
+}
+
+
+/* ******************************* RESPONSIVE **************************** */
+
+@media screen and (max-width: 1100px) {
+    .centerDiv{
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .centerDiv{
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .centerDiv{
+        width: 37%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .centerDiv{
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .centerDiv{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .centerDiv{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .centerDiv{
+        width: 70%;
+    }
+}
+

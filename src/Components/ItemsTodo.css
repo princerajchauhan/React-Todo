@@ -1,0 +1,10 @@
+.myStyle {
+    display: flex;
+    align-items: flex-end;
+    gap: 5px;
+}
+
+.fa-circle-xmark:hover{
+    color: red;
+    cursor: pointer;
+}
